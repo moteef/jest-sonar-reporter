@@ -1,6 +1,6 @@
 {
-  "name": "jest-sonar-reporter",
-  "version": "3.0.0",
+  "name": "@moteef/jest-sonar-reporter",
+  "version": "3.0.1",
   "description": "A Sonar test reporter for Jest.",
   "keywords": [
     "sonar",
@@ -16,8 +16,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test:debug": "DEBUG=true jest",
-    "preversion": "npm run clean && npm run test:coverage",
-    "version": "./version.sh $npm_package_version && git add sonar-project.properties"
+    "preversion": "npm run clean && npm run test:coverage"
   },
   "repository": {
     "type": "git",
